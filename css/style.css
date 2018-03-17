@@ -10,6 +10,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+    margin: 15px;
+}
+
 nav {
   background-color: #fff;
   color: #ea6c56;
