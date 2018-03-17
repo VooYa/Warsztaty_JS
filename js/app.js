@@ -59,8 +59,11 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
 
-     buttons[2].addEventListener('click', function() {
+  
+    
+   function showHide() {
       var textArea = this.previousElementSibling;
+    
       if (textArea.style.display === 'none' || textArea.style.display === '') {
         textArea.style.display = 'block';
         this.innerHTML = 'MNIEJ <span class="glyphicon glyphicon-chevron-up"></span>';
@@ -68,6 +71,7 @@ document.addEventListener('DOMContentLoaded', function () {
         textArea.style.display = 'none';
         this.innerHTML = 'WIĘCEJ <span class="glyphicon glyphicon-chevron-down"></span>';
       }
-    });
+    }
+    buttons[2].addEventListener('click', showHide);
 
 })
