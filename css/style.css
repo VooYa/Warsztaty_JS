@@ -50,6 +50,10 @@ nav {
   color: #ea6c56;  
 }
 
+.more {
+  display: none;
+}
+
 .dropdown {
   display: none;
   background-color: #fff;
@@ -59,6 +63,7 @@ nav {
   left: 0;
   margin: auto;
   padding: 1rem 4rem 1rem 2rem;
+  width: 100%;
 }
 
 .dropdown ul {
@@ -174,6 +179,10 @@ nav {
 
 .read-less {
   display: none;
+}
+
+.read-more {
+    
 }
 
 .plan {
